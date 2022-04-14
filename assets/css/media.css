@@ -1,0 +1,22 @@
+@media (max-width: 767px){
+    form.search-box .input-form input {
+        margin-bottom: 0;
+        padding: 7px 10px;
+        height: auto;
+    }
+    form.search-box .input-form {
+        width: 100%;
+        margin-bottom: 25px;
+        background-color: #FB246A;
+    }
+    .slider-area .hero__caption h1{
+        margin-bottom: 35px;
+    }
+}
+
+
+ @media (max-width: 991px){
+    .modal-mobiles{
+        display: block;
+    }
+} 
