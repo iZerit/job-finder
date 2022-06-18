@@ -248,25 +248,8 @@ $(window).load(function(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $(window).load(function(){
   var phones = [{ "mask": "\+\\9\\98\ (##) ###-##-##"}];
-
    $('#textbox2').inputmask({
        mask: phones, 
        greedy: false, 
@@ -286,7 +269,13 @@ $(window).load(function(){
         greedy: false, 
         definitions: { '#': { validator: "[0-9]", cardinality: 1}} });
 });
+
+
+
 //  modal only number
+
+
+
 $(window).load(function(){
   var phones = [{ "mask": "\+\\9\\98\ (##) ###-##-##"}];
 
