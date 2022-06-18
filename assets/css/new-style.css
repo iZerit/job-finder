@@ -220,3 +220,7 @@ form i {
 iframe{
     width: 1170px;
 }
+
+.fa-heart:before{
+    color: #fff;
+}
