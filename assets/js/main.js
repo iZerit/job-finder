@@ -239,16 +239,34 @@
 })(jQuery);
 
 $(window).load(function(){
-   var phones = [{ "mask": "(##) ###-##-##"}];
+   var phones = [{ "mask": "\+\\9\\98\ (##) ###-##-##"}];
     $('#textbox').inputmask({
         mask: phones, 
         greedy: false, 
-        definitions: { '#': { validator: "[0-9]", cardinality: 1}} });
+        definitions: {'#': { validator: "[0-9]"}} });
 });
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $(window).load(function(){
-  var phones = [{ "mask": "(##) ###-##-##"}];
+  var phones = [{ "mask": "\+\\9\\98\ (##) ###-##-##"}];
+
    $('#textbox2').inputmask({
        mask: phones, 
        greedy: false, 
@@ -261,7 +279,8 @@ $(window).load(function(){
 //  modal only number
 
 $(window).load(function(){
-   var phones = [{ "mask": "(##) ###-##-##"}];
+  var phones = [{ "mask": "\+\\9\\98\ (##) ###-##-##"}];
+
     $('#textbox1').inputmask({ 
         mask: phones, 
         greedy: false, 
@@ -269,7 +288,8 @@ $(window).load(function(){
 });
 //  modal only number
 $(window).load(function(){
-  var phones = [{ "mask": "(##) ###-##-##"}];
+  var phones = [{ "mask": "\+\\9\\98\ (##) ###-##-##"}];
+
    $('#textbox3').inputmask({ 
        mask: phones, 
        greedy: false, 
@@ -324,7 +344,6 @@ toggleEle2.addEventListener('click', function () {
 // modal password 
 
 
-
 const passwordEle3 = document.getElementById('password3');
 const toggleEle3 = document.getElementById('toggle3');
 
@@ -333,3 +352,24 @@ toggleEle3.addEventListener('click', function () {
 
     passwordEle3.setAttribute('type',type === 'password' ? 'text' : 'password');
 });
+
+
+// const passwordEle3 = document.getElementById('password3');
+// const toggleEle3 = document.getElementById('toggle3');
+// function passwordShow (){
+//   toggleEle3.addEventListener('click', () => {
+//       const type = passwordEle3.getAttribute('type');
+//       passwordEle3.setAttribute('type',type === 'password' ? 'text' : 'password');
+//   });
+// }
+
+// passwordShow();
+
+
+// $(window).load(function passwordShow(){
+//   const passwordEle3 = $('#password3')
+//   const toggleEle3 = $('#toggle3')
+//   const type = passwordEle3.attr('type');
+//   toggleEle3.click( 
+//     passwordEle3.
+// })  
