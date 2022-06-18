@@ -211,3 +211,7 @@ form i {
 .navigation {
     width: 490px;
 }
+
+.navigation-links{
+    margin-left: 25px;
+}
