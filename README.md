@@ -1,1 +1,1 @@
-[# job-finder](https://github-readme-stats.vercel.app/api/top-langs/?username=shinokada)
+(https://github-readme-stats.vercel.app/api/top-langs/?username=shinokada)
