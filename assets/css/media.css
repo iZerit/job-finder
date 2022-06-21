@@ -20,3 +20,9 @@
         display: block;
     }
 } 
+
+@media (max-width: 1220px) {
+    iframe{
+        width: 920px;
+    }
+}
