@@ -1,11 +1,11 @@
 /* Theme Description
 -------------------------------------------------
 
-	  Theme Name:
-	  Author:
+	  Theme Name:  DailyDo 
+	  Author: Nextin WS
 	  Support:
-	  Description:
-	  Version:
+	  Description: 
+	  Version: 1.1
 
 ------------------------------------------------- 
 */
@@ -421,7 +421,7 @@ hr {
 }
 
 .btn {
-  background: #1dbab4;
+  background: #1561ad;
   -moz-user-select: none;
   text-transform: capitalize;
   color: #fff;
@@ -3906,7 +3906,7 @@ hr {
 }
 
 .contact-section {
-  padding: 130px 0 100px;
+  padding: 50px 0 100px;
 }
 @media (max-width: 991px) {
   .contact-section {
@@ -5304,7 +5304,7 @@ del {
 }
 
 .header-area .slicknav_btn {
-  top: -45px;
+  top: -35px;
 }
 
 .slicknav_menu .slicknav_nav a:hover {
@@ -5434,7 +5434,7 @@ del {
 }
 
 .slider-area .hero-cap h2 {
-  color: #fff;
+  color: #252b60;
   font-size: 50px;
   font-weight: 700;
   text-transform: capitalize;

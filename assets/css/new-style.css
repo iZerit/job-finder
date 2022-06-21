@@ -42,9 +42,7 @@ form.search-box .input-form {
     margin-top: 12vh;
 }
 
-.btn.head-btn1 {
-    color: var(--light-blue);
-}
+    
 
 .border-btn2 {
     color: var(--theme-color);
@@ -223,4 +221,9 @@ iframe{
 
 .fa-heart:before{
     color: #fff;
+}
+
+
+.head-btn1::before{
+    content: none;
 }
