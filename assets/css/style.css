@@ -2129,7 +2129,7 @@ hr {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .section-padding2 {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 200px;
   }
 }
@@ -6404,7 +6404,7 @@ form.search-box .search-form a {
   font-weight: 300;
 }
 .footer-area .footer-tittle ul li a:hover {
-  color: #1A2238;
+  color: #fff;
   padding-left: 5px;
 }
 .footer-area .footer-tittle-bottom span {
