@@ -26,3 +26,11 @@
         width: 920px;
     }
 }
+
+
+
+@media (max-width:520px) {
+    .md-form{
+       padding: 0;
+    }
+}

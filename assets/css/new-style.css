@@ -145,31 +145,34 @@ form i {
 }
 
 .footer-area .footer-pera p {
-    color: #505050;
+    color: #fff;
 }
 
 .footer-second-p {
-    color: #505050;
+    color: #fff;
 }
 
 .footer-area .footer-tittle ul li a {
-    color: #000;
+    color: #fff;
     opacity: 1;
 }
 
 .footer-area {
-    background-color: #fff;
+    background-color: var(--theme-color);
 }
+
+
+
 
 
 .footer-bottom-area {
     background-color: var(--theme-color);
 }
 
-.footer-area .footer-form form input {
+/* .footer-area .footer-form form input {
     border: 1px solid #000;
     border-radius: 12px;
-}
+} */
 
 .footer-padding {
     padding-top: 40px;
@@ -225,5 +228,9 @@ iframe{
 
 
 .head-btn1::before{
+    content: none;
+}
+
+.post-btn::before{
     content: none;
 }
