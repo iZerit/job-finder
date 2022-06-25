@@ -772,7 +772,11 @@ iframe{
   .slicknav_nav {
       background: #fff;
       float: right;
+<<<<<<< HEAD
       margin-top: 7px;
+=======
+      margin-top: 9px;
+>>>>>>> 90b0dd9778b198362e893f9a5ccc87c11471cdf3
       padding: 19px;
       width: 100%;
       border-bottom: 1px solid #eee;
