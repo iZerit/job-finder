@@ -294,14 +294,6 @@ $(window).load(function(){
 // register pass 
 
 
-let passwordEle = document.getElementById('password');
-let toggleEle = document.getElementById('toggle');
-
-toggleEle.addEventListener('click', function () {
-    let type = passwordEle.getAttribute('type');
-
-    passwordEle.setAttribute('type',type === 'password' ? 'text' : 'password');
-});
 
 
 
@@ -309,14 +301,6 @@ toggleEle.addEventListener('click', function () {
 
 // login passs 
 
-const passwordEle1 = document.getElementById('password1');
-const toggleEle1 = document.getElementById('toggle1');
-
-toggleEle1.addEventListener('click', function () {
-    const type = passwordEle1.getAttribute('type');
-
-    passwordEle1.setAttribute('type',type === 'password' ? 'text' : 'password');
-});
 
 
 
