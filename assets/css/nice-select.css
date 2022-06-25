@@ -84,7 +84,7 @@
     .nice-select.small:after {
       height: 4px;
       width: 4px; }
-    .nice-select.small .option {
+    .nice-select.small option {
       line-height: 34px;
       min-height: 34px; }
   .nice-select .list {
@@ -109,9 +109,9 @@
     -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     z-index: 9; }
-    .nice-select .list:hover .option:not(:hover) {
+    .nice-select .list:hover option:not(:hover) {
       background-color: transparent !important; }
-  .nice-select .option {
+  .nice-select option {
     cursor: pointer;
     font-weight: 400;
     line-height: 40px;
@@ -120,14 +120,16 @@
     outline: none;
     padding-left: 18px;
     padding-right: 29px;
+    padding-top: 29px;
+    padding-bottom: 29px;
     text-align: left;
     -webkit-transition: all 0.2s;
     transition: all 0.2s; }
-    .nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
+    .nice-select option:hover, .nice-select option.focus, .nice-select option.selected.focus {
       background-color: #0052a3; }
-    .nice-select .option.selected {
+    .nice-select option.selected {
       font-weight: bold; }
-    .nice-select .option.disabled {
+    .nice-select option.disabled {
       background-color: transparent;
       color: #999;
       cursor: default; }
