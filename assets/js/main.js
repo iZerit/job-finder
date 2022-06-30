@@ -278,7 +278,6 @@ $(window).load(function(){
 
 $(window).load(function(){
   var phones = [{ "mask": "\+\\9\\98\ (##) ###-##-##"}];
-
    $('#textbox3').inputmask({ 
        mask: phones, 
        greedy: false, 
